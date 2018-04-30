@@ -54,7 +54,7 @@ if __name__ == '__main__':
     print(train_sum + test_sum)
 
     f = open('result', 'a')
-    # model_names = ['RhymeAPP', 'Rhyme2vec_whole', 'Doc2vec', 'HAN', 'VaeRL2_whole']
+    # model_names = ['RhymeAPP', 'Rhyme2vec', 'Doc2vec', 'HAN', 'HAVAE']
     # dims = [24, 100, 125, 100, 100]
     model_names = ['HAN']
     dims = [100]
